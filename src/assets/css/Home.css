@@ -18,3 +18,32 @@
     border: 1.5px solid #21D954;
     margin-bottom: 4rem;
 }
+
+.projectImg {
+    width: 28rem;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    position: relative;
+    transition: transform ease .25s;
+}
+.projectImg:hover {
+    transform: scale(1.025);
+}
+.img-overlay {
+    position: absolute;
+    z-index: 2;
+    background-color: #00000042;
+    opacity: 0;
+}
+.img-overlay:hover  {
+    opacity: 1;
+}
+
+.projectImg img {
+    transition: transform ease-in 5s;
+}
+.projectImg:hover img {
+    transform: translateY(-100%);
+    transition: transform 25s linear;
+}
