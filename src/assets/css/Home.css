@@ -48,17 +48,3 @@
     border: 1.5px solid #21D954;
     margin-bottom: 4rem;
 }
-.steps {
-    background-color: #21D954;
-}
-.step_line {
-    width: 1.5px;
-    height: 30rem;
-    margin-bottom: 5rem;
-    overflow: hidden;
-}
-.step_line_inner {
-    background-color: var(--text-color);
-    height: 100%;
-    transform: translateY(-100%);
-}
