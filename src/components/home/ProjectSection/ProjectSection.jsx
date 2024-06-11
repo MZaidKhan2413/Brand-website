@@ -1,5 +1,6 @@
 import Projects from "./Projects"
-import { projects } from "../../utils/constants"
+import { projects } from "../../../utils/constants"
+import "./ProjectSection.css"
 
 export default function ProjectSectiom() {
     return (

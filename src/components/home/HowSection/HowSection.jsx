@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {useGSAP} from "@gsap/react";
+import "./HowSection.css";
 
 export default function HowSection() {
     gsap.registerPlugin(ScrollTrigger);

@@ -1,0 +1,39 @@
+.how-section {
+  padding-top: 10rem;
+}
+
+.how-section > span:nth-child(1) {
+  font-size: 0.9rem;
+  color: #21d954;
+  background-color: #06250e;
+  border: 1.5px solid #21d954;
+  margin-bottom: 4rem;
+}
+
+.steps {
+  height: calc(4 * 16rem);
+  width: 100%;
+}
+
+.steps_line {
+  height: 95%;
+  width: 1px;
+  background-color: #ffffff69;
+  overflow: hidden;
+}
+.steps_line_inner {
+  transform: translateY(-100%);
+  background-color: #fff;
+}
+
+.card {
+  height: 16rem;
+  width: 17rem;
+  color: var(--text-color);
+  background-color: transparent;
+}
+
+.number {
+  width: 5rem;
+  height: 5rem;
+}

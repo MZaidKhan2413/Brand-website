@@ -1,5 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import ActionButton from "../ActionButton/ActionButton";
+import ActionButton from "../../ActionButton/ActionButton";
+import "./Hero.css";
 
 export default function Hero() {
     const [text] = useTypewriter({

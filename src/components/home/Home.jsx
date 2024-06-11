@@ -1,7 +1,6 @@
-import "./Home.css";
-import Hero from "./Hero";
-import ProjectSection from "./ProjectSection";
-import HowSection from "./HowSection";
+import Hero from "./Hero/Hero.jsx";
+import ProjectSection from "./ProjectSection/ProjectSection.jsx";
+import HowSection from "./HowSection/HowSection.jsx";
 
 export default function Home() {
     return (
