@@ -8,7 +8,7 @@ export default function Hero() {
         delaySpeed: 550,
     });
   return (
-    <section className="hero h-100 w-100 d-flex flex-column align-items-center justify-content-center">
+    <section className="hero w-100 d-flex flex-column align-items-center justify-content-center">
       <h1 className="fw-bolder pb-2 text-center px-md-0 px-4">Hire World Class Talent</h1>
       <h1 className="fw-bolder text-center px-md-0 px-4">to build your <span>{text}</span><Cursor /></h1>
       <p className="py-3 text-center px-md-0 px-4">

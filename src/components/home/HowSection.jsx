@@ -6,12 +6,13 @@ export default function HowSection() {
     gsap.registerPlugin(ScrollTrigger);
     useGSAP(()=>{
         gsap.to(".steps_line_inner", {
-            transform: "translateY(100%)",
+            transform: "translateY(50%)",
             scrollTrigger: {
                 trigger: ".steps_line",
                 scroller: "body",
-                start: "top 30%",
-                end: "bottom 30%",
+                markers: true,
+                start: "top 20%",
+                end: "bottom 20%",
                 scrub: .1
             }
         })
