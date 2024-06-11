@@ -10,7 +10,6 @@ export default function HowSection() {
             scrollTrigger: {
                 trigger: ".steps_line",
                 scroller: "body",
-                markers: true,
                 start: "top 20%",
                 end: "bottom 20%",
                 scrub: .1
