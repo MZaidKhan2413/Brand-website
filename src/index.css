@@ -26,7 +26,7 @@ li {
 .wrapper {
   position: relative;
   min-height: 100dvh;
-  width: 100dvw;
+  width: 99dvw;
   overflow-x: hidden;
 }
 
