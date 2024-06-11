@@ -8,9 +8,10 @@ export default function HowSection() {
         gsap.to(".steps_line_inner", {
             transform: "translateY(100%)",
             scrollTrigger: {
-                trigger: ".steps",
-                scroller: ".wrapper",
+                trigger: ".steps_line",
+                scroller: "body",
                 start: "top 30%",
+                end: "bottom 30%",
                 scrub: .1
             }
         })
