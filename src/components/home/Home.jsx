@@ -1,6 +1,7 @@
 import Hero from "./Hero/Hero.jsx";
 import ProjectSection from "./ProjectSection/ProjectSection.jsx";
 import HowSection from "./HowSection/HowSection.jsx";
+import Pricing from "./Pricing/Pricing.jsx";
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Hero />
             <ProjectSection />
             <HowSection />
+            <Pricing />
         </div>
     )
 }

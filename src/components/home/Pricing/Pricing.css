@@ -1,0 +1,29 @@
+.pricing {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.head-text {
+  font-size: 0.9rem;
+  color: #f4e38e;
+  background-color: #1e1c12;
+  border: 1.5px solid #f4e38e;
+  margin-bottom: 4rem;
+}
+.price-cards {
+  min-height: 70vh;
+}
+.p-card {
+  background: radial-gradient(
+    circle,
+    rgba(41, 39, 39, 1) 0%,
+    rgba(12, 12, 12, 1) 100%
+  );
+  border-radius: 0.7rem;
+  border: 2px solid #f4e38e;
+}
+
+.p-card > .head-text {
+  width: max-content;
+  margin-bottom: 0;
+}
