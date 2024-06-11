@@ -44,3 +44,26 @@ export const projects = [
     src: "/images/Project_img9.jpg",
   },
 ];
+
+export const footerNavs = [
+  {
+    link: "/terms",
+    navText: "Terms of service",
+  },
+  {
+    link: "/privacy-policy",
+    navText: "Privacy Policy",
+  },
+  {
+    link: "/Cancellation-refund",
+    navText: "Cancellation & Refund",
+  },
+  {
+    link: "/shipping-policy",
+    navText: "Shipping Policy",
+  },
+  {
+    link: "/contact",
+    navText: "Contact Us",
+  },
+];
