@@ -1,0 +1,23 @@
+.footer {
+    background-color: #262626;
+}
+
+.company > p {
+    font-size: .8rem !important;
+    opacity: .4;
+    margin: 0 !important;
+}
+
+.foot-navs * {
+    font-size: .9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer, .foot-navs {
+        flex-direction: column !important;
+        row-gap: .5rem;
+    }
+    .company {
+        text-align: center;
+    }
+}
