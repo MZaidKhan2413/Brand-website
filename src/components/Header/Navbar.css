@@ -6,15 +6,6 @@
     padding: 10px 20px;
     backdrop-filter: blur(5px);
 }
-.navigations li {
-    color: var(--text-color) !important;
-    font-weight: 500;
-    opacity: .7;
-    transition: all, ease .1s;
-}
-.navigations li:hover {
-    opacity: 1;
-}
 
 .dropdown-menu {
     background-color: var(--bg-color) !important;

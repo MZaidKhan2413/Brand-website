@@ -1,4 +1,4 @@
-import "../assets/css/Logo.css";
+import "./Logo.css";
 export default function Logo() {
     return (
         <div className="logo fs-3">

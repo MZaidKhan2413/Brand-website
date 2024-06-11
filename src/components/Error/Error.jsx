@@ -1,4 +1,4 @@
-import ActionButton from "./ActionButton"
+import ActionButton from "../ActionButton/ActionButton.jsx"
 export default function Error() {
     return (
         <div className="error-page d-flex flex-column align-items-center justify-content-center">

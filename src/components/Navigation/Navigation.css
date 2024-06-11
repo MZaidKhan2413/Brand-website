@@ -1,0 +1,9 @@
+.navigations li {
+  color: var(--text-color) !important;
+  font-weight: 500;
+  opacity: 0.7;
+  transition: all, ease 0.1s;
+}
+.navigations li:hover {
+  opacity: 1;
+}

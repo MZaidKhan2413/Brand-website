@@ -1,8 +1,8 @@
-import Logo from "../Logo";
+import Logo from "../Logo/Logo.jsx";
 import "./Footer.css";
 import { IoLogoLinkedin, IoLogoInstagram } from "react-icons/io5";
 import {footerNavs} from "../../utils/constants.js";
-import Navigations from "../Navigations.jsx"
+import Navigations from "../Navigation/Navigations.jsx"
 
 export default function Footer() {
     return (

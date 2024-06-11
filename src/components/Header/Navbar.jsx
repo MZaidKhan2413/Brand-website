@@ -1,9 +1,9 @@
-import Navigations from "./Navigations";
-import ActionButton from "./ActionButton";
-import {navigations} from "../utils/constants";
+import Navigations from "../Navigation/Navigations";
+import ActionButton from "../ActionButton/ActionButton";
+import {navigations} from "../../utils/constants";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Logo from "./Logo";
-import "../assets/css/Navbar.css";
+import Logo from "../Logo/Logo";
+import "./Navbar.css";
 export default function Navbar() {
     return(
         <nav className="Navbar d-flex align-items-center justify-content-sm-center justify-content-between gap-5">

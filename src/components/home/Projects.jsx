@@ -1,4 +1,4 @@
-import ActionButton from "../ActionButton.jsx"
+import ActionButton from "../ActionButton/ActionButton.jsx"
 export default function Projects({src, link}) {
     return (
         <div className="projectImg">
