@@ -2,13 +2,12 @@ import Navigations from "./Navigations";
 import ActionButton from "./ActionButton";
 import {navigations} from "../utils/constants";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Logo from "./Logo";
 import "../assets/css/Navbar.css";
 export default function Navbar() {
     return(
         <nav className="Navbar d-flex align-items-center justify-content-sm-center justify-content-between gap-5">
-            <div className="logo fs-3">
-                STACKDOORS
-            </div>
+            <Logo />
             <div className="navigations d-none d-md-flex align-items-center gap-5">
                 {navigations.map((nav, idx) => <Navigations link={nav.link} navText={nav.navText} key={idx} />)}
             </div>
