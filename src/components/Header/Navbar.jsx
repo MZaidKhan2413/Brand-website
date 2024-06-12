@@ -12,7 +12,7 @@ export default function Navbar() {
                 {navigations.map((nav, idx) => <Navigations link={nav.link} navText={nav.navText} key={idx} />)}
             </div>
             <div className="d-none d-md-flex">
-                <ActionButton link={"/"} innerText={"Get Started"}/>
+                <ActionButton link={"/pricing"} innerText={"Get Started"}/>
             </div>
 
             <div className="dropdown d-block d-md-none">

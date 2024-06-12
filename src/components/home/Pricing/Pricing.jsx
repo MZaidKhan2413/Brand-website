@@ -23,7 +23,7 @@ export default function Pricing() {
         })
     })
   return (
-    <section className="pricing d-flex flex-column align-items-center pb-3">
+    <section className="pricing d-flex flex-column align-items-center pb-3" id="pricing">
       <span className="head-text rounded-pill p-2 px-4">Pricing</span>
       <div className="price-cards w-100 row justify-content-center gap-4">
         {priceInfos.map((priceInfo, index) => (

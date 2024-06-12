@@ -7,7 +7,7 @@ export default function Community() {
             <div className="community-box h-75 w-75 d-flex flex-column align-items-center justify-content-center gap-3">
                 <h1 className="fw-bold text-center">Want to <span>jam</span> with us?</h1>
                 <p className="text-center opacity-75">Be part of our vibrant WhatsApp community where talented minds <br /> connect, share opportunities, and collaborate on exciting projects.</p>
-                <ActionButton link={""} innerText={"Join Now"} />
+                <ActionButton innerText={"Join Now"} />
                 <div className="community-member h-100 w-100 d-flex flex-column align-items-center justify-content-center">
                     <span>Alex</span>
                     <span>Maria</span>
