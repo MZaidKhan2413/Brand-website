@@ -1,25 +1,30 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import "./Contact.css";
+import { useEffect } from "react";
 export default function Contact() {
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    });
+
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Form submitted");
     }
 
     useGSAP(()=> {
-        var tl = gsap.timeline();
-        tl.from("h1",{
+        var timeline = gsap.timeline();
+        timeline.from("h1",{
             opacity: 0,
             duration: .5,
             y: -20,
         })
-        tl.from(".contact-inputs",{
+        timeline.from(".contact-inputs",{
             opacity: 0,
             y: 20,
             stagger: 0.2
         })
-        tl.from(".form-btn",{
+        timeline.from(".form-btn",{
             opacity: 0,
             y: 20,
         })
