@@ -13,7 +13,7 @@ Welcome to StackDoors, a brand website built using React. This project was creat
 
 ## Demo
 
-Check out the live demo of StackDoors: [https://stackdoors.netlify.app](#)
+Check out the live demo of StackDoors: [https://stackdoors.netlify.app]
 
 ## Features
 
