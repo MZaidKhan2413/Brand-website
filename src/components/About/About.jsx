@@ -24,9 +24,8 @@ const About = () => {
 
     useGSAP(()=>{
       gsap.from(".container", {
-        x: -50,
         opacity: 0,
-        duration: 1,
+        duration: 1.2,
       })
     })
 
