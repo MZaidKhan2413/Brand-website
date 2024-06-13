@@ -16,7 +16,7 @@ export default function Hero() {
         Discover handpicked talent for exceptional tech solutions
       </p>
       <div className="d-flex gap-4 py-2">
-        <ActionButton link={"/pricing"} innerText={"See Plans"} />
+        <ActionButton link={"#pricing"} innerText={"See Plans"} />
         <ActionButton
           innerText={"Schedule a call"}
           btnColor="btn-clr-black"

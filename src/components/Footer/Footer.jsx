@@ -17,8 +17,9 @@ export default function Footer() {
                })}
             </div>
             <div className="socials fs-4 d-flex align-items-center gap-2 py-3">
-                <IoLogoInstagram />
-                <IoLogoLinkedin />
+                <a href="https://www.instagram.com/z.a.i.d__k/?next=%2F"><IoLogoInstagram /></a>
+                <a href="https://www.linkedin.com/in/mohammad-zaid-khan-928793253/"><IoLogoLinkedin /></a>
+                
             </div>
         </footer>
     )
