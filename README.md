@@ -8,14 +8,12 @@ Welcome to StackDoors, a brand website built using React. This project was creat
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Demo
 
-Check out the live demo of StackDoors: [https://stackdoors.netlify.app](#)
+Check out the live demo of StackDoors: [https://stackdoors.netlify.app]
 
 ## Features
 
