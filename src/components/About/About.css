@@ -1,0 +1,54 @@
+.about {
+    min-height: 100dvh;
+    background-color: #030303;
+    background-image: linear-gradient(
+      32deg,
+      rgba(11, 11, 11, 0.555) 30px,
+      transparent
+    );
+    background-size: 60px 60px;
+    background-position: -5px -5px;
+}
+
+.container {
+    position: relative;
+}
+
+.about-navs {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(41,41,41,1) 0%, rgba(63,63,63,1) 57%);
+}
+
+.about-navs-inner {
+    transition: all ease-in .25s;
+}
+.about-navs-inner:hover, .about-navs-inner:focus, .about-navs-inner:active{
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+.about .container h2 {
+    font-weight: 800;
+    padding-top: 5rem;
+}
+.about .container .paras {
+    margin-bottom: 5rem;
+    opacity: .75;
+}
+
+.about-key-point {
+    font-size: 2.5rem;
+}
+
+
+@media screen and (max-width: 767px) {
+    .row {
+        margin: 0 !important;
+        --bs-gutter-x: 0 !important;
+        --bs-gutter-y: 0 !important;
+    }
+    .about-navs {
+        width: 100% !important;
+        font-size: .75rem;
+    }
+}
