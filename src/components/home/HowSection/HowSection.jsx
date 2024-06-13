@@ -22,7 +22,7 @@ export default function HowSection() {
     return (
         <section className="how-section d-flex flex-column align-items-center">
             <span className="rounded-pill p-2 px-4">How it works</span>
-            <h1 className="fs-1 fw-bolder pb-5">Onboard talent blazing fast</h1>
+            <h1 className="fs-1 fw-bolder pb-5 px-2 px-md-0 text-center">Onboard talent blazing fast</h1>
             <div className="steps container d-flex gap-5 justify-content-center">
                 <div className="box d-none d-md-block">
                     {contents.map((content, i) => (

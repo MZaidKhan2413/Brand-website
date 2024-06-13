@@ -87,9 +87,14 @@
 }
 @media screen and (max-width: 768px) {
     .community {
-        height: 50dvh;
+        height: 60dvh;
     }
     .community .head-text {
         margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .community {
+        height: 73dvh;
     }
 }

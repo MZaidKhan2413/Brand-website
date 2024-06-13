@@ -1,8 +1,8 @@
 export const aboutNavs = [
-    {link: "#mission", name: "Our Mission"},
-    {link: "#vision", name: "Our Vision"},
-    {link: "#team", name: "Our Team"},
-    {link: "#contact", name: "Contact Us"},
+    {link: "#mission", name: "Mission"},
+    {link: "#vision", name: "Vision"},
+    {link: "#team", name: "Team"},
+    {link: "#contact", name: "Contact"},
 ]
 
 export const aboutContent = [
