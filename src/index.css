@@ -38,3 +38,9 @@ main {
 .error-page {
   height: 100vh;
 }
+
+.row {
+  margin: 0 !important;
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}

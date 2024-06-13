@@ -24,7 +24,6 @@
 }
 .community-member {
     position: absolute;
-    /* z-index: 0; */
     pointer-events: none;
 }
 .community-member span {
@@ -84,5 +83,13 @@
 @media screen and (max-width: 950px) {
     .community-member, .community-member * {
         display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .community {
+        height: 50dvh;
+    }
+    .community .head-text {
+        margin-bottom: 1rem;
     }
 }
